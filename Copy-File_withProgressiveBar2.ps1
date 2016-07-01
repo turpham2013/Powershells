@@ -47,5 +47,5 @@ $toFile = [io.file]::OpenWrite($toPathNFile)
 
 }
 
-#CopyFile -from "C:\NanoServers\NanoServer.wim" -to "C:\AzureTemplates\NanoServer.wim"
-copyFile -from "C:\turnerTest.txt" -to "C:\AzureTemplates\TurnerTest.txt"
+CopyFile -from "C:\NanoServers\NanoServer.wim" -to "C:\AzureTemplates\NanoServer.wim"
+#copyFile -from "C:\turnerTest.txt" -to "C:\AzureTemplates\TurnerTest.txt"
